@@ -3,10 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Dashboard</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>facilities</title>
     <link rel="stylesheet" href="style.css">
-    <title> facilities </title>
     <style>
         hr {
             color:aliceblue;
@@ -16,44 +14,91 @@
             div.a{
             text-align: center;
         }
+        
+          .swimming-pool {
+          width: 100px;
+          height: 100px;
+          background-image: url('img/LOGO SWIMMING.png');
+          background-size: 100% 100%; /* Adjust the percentage to resize the image */
+        }
 
-        </style>
+        .wifi {
+          width: 100px;
+          height: 100px;
+          background-image: url('img/LOGO WIFI.png');
+          background-size: 100% 100%; /* Adjust the percentage to resize the image */
+        }
+        
+        .container {
+          display: flex;
+          justify-content: space-around;
+        }
+        .container img {
+        padding-right: 50px;
+        }
+
+        .border {
+          border: 1px solid white;
+          padding: 20px;
+          box-sizing: border-box;
+          border-radius: 25px;
+        }
+        .VILLA{
+          font-size: 32px;
+          color: #fff;
+          text-decoration: none;
+          font-weight: 700;
+        }
+  </style>
   </head>
-  <body>
-    <img src="img/LogoVilla.png" alt="Logo villa"  width="581" height="133" length="1000">
-    <hr>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-bluenavy">
-      <div class="container-fluid justify-content-between d-flex">
-          <a class="navbar-brand" href="#">Dashboard</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/dashboard">Home</a>              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/facilities">Facilities</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/testimonies">testimonies</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/galery">galery</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/feedback">feedback</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/About">About</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+  <img src="img/LogoVilla.png" alt="Logo villa"  width="581" height="70" length="1000" class="left">
+        </a>
+        <header class="header">
+      <a href="#" class="VILLA"></a>
+
+      <nav class="navbar">
+        <a href="dashboard">Dashboard</a>
+        <a href="facilities">Facilities</a>
+        <a href="feedback">Feedback</a>
+        <a href="galery">Galery</a>
+        <a href="testimonies">Testimonies</a>
+        <a href="about">About</a>
+        <a href="login"> | Login</a>
       </nav>
-      <div class="container mt-4">
+    </header>
+    <hr>
         <div class="a">
       <h1 style="color:white;">Our Facilities<h1> 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <div class="container mt-4">
+          <div class="container text-center">
+            <div class="row align-items-center">
+              <div class="container">
+                
+              <img src="img/LOGO SWIMMING.png" alt="Swimming Pool">
+               <img src="img/LOGO WIFI.png" alt="Wifi to Swimming Pool Wifi">
+               <img src="img/LOGO FISHING.png" alt="MANCING MANIA">
+               <img src="img/LOGO MUSHOLLA.png" alt="Shalat pak haji">
+               </div>
+               </div>
+              </div>
+              </div>
+            </div>
+          <div class="a">
+            <div class="container mt-4">
+          <div class="border">
+            <h2 style="color:#fff"> Full Details Villa Facilities </h2>
+          </div>
+          </div>
+         </div>
+         <div class= "container mt-4">
+          <div class = "border">
+          <h3 style ="color:#fff">1. King Room (Bed King size 180x200) untuk 2 Kamar </h3>
+          <h3 style ="color:#fff">2. Ruang Tamu dan Teras </h3>
+          <h3 style ="color:#fff">3. Gathering Room/Aula (bisa menampung sekitar 30-50 orang dilengkapi meja buffet untuk setting makanan) </h3>
+          <h3 style ="color:#fff">4. Family Room (TV, Perapian, Extra Bed 1-10bh) </h3>
+          
+
+         </div>
+  </html>
   </body>
 </html>
